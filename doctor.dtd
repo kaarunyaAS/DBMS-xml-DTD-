@@ -1,0 +1,7 @@
+<!DOCTYPE hcms[
+<!ELEMENT hcms(Doctor_details*)>
+<!ELEMENT hcms(Doctor_id,Doctor_name,phone_number)>
+<!ELEMENT Doctor_id(#PCDATA)>
+<!ELEMENT Doctor_name(#PCDATA)>
+<!ELEMENT phone_number(#PCDATA)>
+]

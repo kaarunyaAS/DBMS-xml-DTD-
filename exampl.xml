@@ -1,0 +1,13 @@
+XML:
+
+<!DOCTYPE login SYSTEM "default.dtd">
+<login>
+<default>10</default>
+<designed by>KAARUNYA A S</designed by>
+</login>
+
+DTD:
+
+<!ELEMENT login(default,designed by)>
+<!ELEMENT default(#PCDATA)>
+<!ELEMENT designed by(#PCDATA)>
